@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "prepare": "husky",
-    "build": "pnpm --filter @mindfoldhq/trellis build",
+    "build": "node init && pnpm --filter @mindfoldhq/trellis build",
     "test": "pnpm --filter @mindfoldhq/trellis test",
     "lint": "pnpm --filter @mindfoldhq/trellis lint",
     "typecheck": "pnpm --filter @mindfoldhq/trellis typecheck",
